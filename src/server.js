@@ -15,4 +15,4 @@ app.use("/admin", authenticateMiddleware ,AdminController);
 
 app.listen(port, () => {
     console.log("Server is running");
-})
+});
